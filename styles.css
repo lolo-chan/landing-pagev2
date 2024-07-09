@@ -38,7 +38,7 @@ a {
     background-color: #1f2937;
     padding: 125px 250px;
     justify-content: space-between;
-    gap: 32px;
+    gap: 80px;
 }
 
 .headingpt1 {
@@ -50,6 +50,7 @@ a {
 .parapt1 {
     font-size: 18px;
     color: #E5E7EB;
+    gap: 16px;
 }
 
 .pt1 button {
@@ -61,4 +62,41 @@ a {
     border-radius: 7px;
     color: #E5E7EB;
     font-weight: bolder;
+}
+
+.pt2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    padding-top: 40px;
+    padding-bottom: 120px;
+}
+
+.headingpt2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    margin: 30px;
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 80px;
+}
+
+.roundbox {
+    width: 180px;
+    height: 180px;
+    border-color: #3882f6;
+    border: 4px solid #3882f6;
+    border-radius: 16px;
+    margin-bottom: 12px;
+}
+
+.text {
+    width: 180px;
+    text-align: center;
 }
